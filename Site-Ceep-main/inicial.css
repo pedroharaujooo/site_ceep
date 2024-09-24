@@ -1,0 +1,95 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Bebas Neue;
+}
+h1{
+    font-size: 30px;
+    color: red;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #FF0000; /* borda vermelha */
+  ;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-size: 24px; /* tamanho da letra */
+  color: #000; /* letra preta */
+  text-decoration: none;
+  border-radius: 5px; /* borda arredondada */
+  transition: background 2s;
+}
+
+nav ul li a:hover {
+  background-color: #ca3434;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+  padding: 4px;
+  transition: 0.5s;
+}
+
+nav ul li:first-child a {
+  border-top-left-radius: 5px; /* round the top-left corner of the first item */
+  border-bottom-left-radius: 5px; /* round the bottom-left corner of the first item */
+}
+
+nav ul li:last-child a {
+  border-top-right-radius: 5px; /* round the top-right corner of the last item */
+  border-bottom-right-radius: 5px; /* round the bottom-right corner of the last item */
+}
+.image{
+    position: absolute;
+}
+.image2{
+    height: 50px;
+    position: inherit;
+    margin-left: 198vh;
+    margin-top: 10px;
+}
+
+.ceep{
+    position: absolute;
+    margin-left: 2em;
+    margin-top: 10px;
+}
+
+.caixa{
+    height: 60px;
+}
+#ceepfundo{
+    height: 500px;
+    margin: 60px;
+    border-radius: 20px;
+    border: 4px solid red;
+}
+main{
+    display: flex;
+    height: 74.2vh;
+    justify-content: center;
+}
+footer{
+    background-color: red;
+    display: flex;
+    height: 100%;
+    font-size: 40px;
+}
+.rodape_b{
+    background-color: red;
+}
+.logo{
+    height: 80px;
+}
